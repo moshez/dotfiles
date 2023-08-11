@@ -1,2 +1,4 @@
 .ipynb_checkpoints/
-gitlab-ci.yml
+/gitlab-ci.yml
+/github
+/readthedocs.yaml
