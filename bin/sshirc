@@ -1,7 +1,0 @@
-#!/bin/bash
-exec ssh \
-     -o ServerAliveInterval=5 \
-     -o ServerAliveCountMax=2 \
-     -t \
-     moshez@$1 \
-     sudo docker exec -it -u moshez irc tmux at
